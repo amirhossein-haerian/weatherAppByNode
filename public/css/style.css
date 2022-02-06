@@ -1,0 +1,113 @@
+html, body {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100%;
+    margin: 0px;
+}
+
+header, footer, .container{
+    width: 85%;
+    margin: 0px auto;
+}
+
+body {
+    margin-bottom: 200px;
+}
+
+header {
+    border-bottom: 1px solid darkcyan;
+    padding-top: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 7.5%;
+    border-top: 1px solid darkcyan;
+}
+
+header ul {
+    list-style-type: none;
+    background-color: azure;
+    padding: 10px 0px;
+    border-radius: 5%;
+    margin: 0px;
+}
+
+header ul li{
+text-decoration: none;
+display: inline;
+padding: 10px 10px;
+}
+
+header ul a{
+    text-decoration: none;
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+header ul a:hover{
+    text-decoration: underline;
+}
+
+header h1{
+    color: darkslategrey;
+}
+
+header h1::before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    border-radius: 20% 50% 50% 20%;
+    background-color: darkcyan;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer p{
+    text-align: center;
+    color: darkcyan;
+}
+.footer-name {
+    background-color: azure;
+    padding: 5px;
+    border-radius: 15px;
+    font-weight: bold;
+    width: 100%;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input {
+    border-color: darkcyan;
+    border-radius: 15px;
+    border-style: dashed;
+    padding: 5px 10px;
+}
+form input[type = submit]{
+    border-radius: 15px;
+    border-style: solid;
+    background-color: azure;
+    color: darkcyan;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.search-result p{
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.search-result .success{
+    background-color: azure;
+    color: darkcyan;
+}
+
+.search-result .error{
+    background-color: lightyellow;
+    color: darkgoldenrod;
+}
